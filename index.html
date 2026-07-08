@@ -1,5 +1,147 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="Omid Pakdel — cloud infrastructure, OpenStack, distributed systems, and production-grade backend engineering."
+    />
+    <meta property="og:title" content="CHashtager — Omid Pakdel" />
+    <meta property="og:description" content="Cloud infrastructure notes, tools, and systems thinking." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chashtager.github.io" />
+    <meta name="twitter:card" content="summary" />
+    <title>CHashtager — Omid Pakdel</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-{% include {{ site.theme-home }} %}
+    <div class="page-shell">
+      <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="/" aria-label="CHashtager home">CHashtager</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#projects">Projects</a>
+          <a href="#memory">Notes</a>
+          <a href="https://github.com/CHashtager" rel="me noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/omidpakdel" rel="me noopener noreferrer">LinkedIn</a>
+        </nav>
+      </header>
+
+      <main id="main">
+        <section class="hero section-grid" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <h1 id="hero-title">Omid Pakdel</h1>
+            <p class="hero-subtitle">
+              Cloud infrastructure, OpenStack, distributed systems,<br />
+              and production-grade backend engineering.
+            </p>
+            <p class="hero-body">
+              I build and review infrastructure software where correctness, scale,
+              operability, and long-term maintainability matter more than shiny abstractions.
+            </p>
+            <div class="terminal-badge" aria-label="Personal line">
+              <span aria-hidden="true">&gt;_</span>
+              <strong>Bug Producer. World Debugger.</strong>
+            </div>
+          </div>
+
+          <aside class="systems-card" aria-label="Systems I care about">
+            <div class="window-dot" aria-hidden="true"></div>
+            <p class="code-comment">// systems I care about</p>
+            <pre aria-hidden="true"><code>├─ correctness
+├─ scale
+├─ operability
+├─ security
+├─ debuggability
+├─ maintainability
+└─ long-term thinking</code></pre>
+          </aside>
+        </section>
+
+        <section id="work" class="content-section" aria-labelledby="work-title">
+          <div class="section-heading">
+            <h2 id="work-title">What I work on</h2>
+          </div>
+
+          <div class="work-grid">
+            <article class="info-card">
+              <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v5H4v-5Zm0 8h16v5H4v-5Zm3-6h.01M7 15.5h.01M10 7.5h7M10 15.5h7"/></svg>
+              <h3>Cloud Infrastructure</h3>
+              <p>OpenStack, Neutron, Nova, Cinder, OVN, VPC, private cloud architecture.</p>
+            </article>
+
+            <article class="info-card">
+              <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/></svg>
+              <h3>Backend Systems</h3>
+              <p>Go, Python, APIs, distributed systems, service design, database-backed workflows.</p>
+            </article>
+
+            <article class="info-card">
+              <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.4 2.8 8.4 7 10 4.2-1.6 7-5.6 7-10V6l-7-3Zm-3 9 2 2 4-5"/></svg>
+              <h3>Architecture & Technical Governance</h3>
+              <p>Design reviews, production readiness, engineering standards, scalability decisions.</p>
+            </article>
+
+            <article class="info-card">
+              <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4V5Zm4 5 3 2-3 2M13 15h4"/></svg>
+              <h3>Developer Tools & Personal Systems</h3>
+              <p>Small focused tools that solve real annoyances: CLIs, bots, automation, local utilities.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="content-section" aria-labelledby="projects-title">
+          <div class="section-heading section-heading-row">
+            <h2 id="projects-title">Pinned from GitHub</h2>
+            <a class="section-action" href="https://github.com/CHashtager?tab=repositories" rel="noopener noreferrer">
+              All repositories <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div id="pinned-status" class="sr-only" role="status" aria-live="polite">Loading pinned repositories…</div>
+          <div id="pinned-grid" class="project-grid" data-username="CHashtager"></div>
+        </section>
+
+        <section id="memory" class="content-section memory-section" aria-labelledby="memory-title">
+          <div class="section-heading">
+            <h2 id="memory-title">Working Memory</h2>
+          </div>
+
+          <div class="memory-list" aria-label="Working memory topics">
+            <a href="https://github.com/CHashtager" rel="noopener noreferrer">
+              <span>01</span>
+              <strong>Developer tools that remove boring friction</strong>
+              <em>ongoing</em>
+              <b aria-hidden="true">→</b>
+            </a>
+            <a href="https://github.com/CHashtager" rel="noopener noreferrer">
+              <span>02</span>
+              <strong>AI-assisted code review without lowering standards</strong>
+              <em>active</em>
+              <b aria-hidden="true">→</b>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p class="footer-title"><span aria-hidden="true">&gt;_</span> GitHub: @CHashtager</p>
+          <p>Building reliable systems. Fixing the ones that aren’t.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/CHashtager" rel="me noopener noreferrer">GitHub</a>
+          <span aria-hidden="true">/</span>
+          <a href="https://www.linkedin.com/in/omidpakdel" rel="me noopener noreferrer">LinkedIn</a>
+          <span aria-hidden="true">→</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

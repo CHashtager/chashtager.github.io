@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-07-08T00:00:00.000Z",
+  "source": "fallback-seed",
+  "items": [
+    {
+      "name": "gitlab-ai-assistant",
+      "description": "Gitlab AI Assistant, Easy Git Flow, AI Code Review",
+      "url": "https://github.com/CHashtager/gitlab-ai-assistant",
+      "primaryLanguage": { "name": "TypeScript" },
+      "stargazerCount": 5,
+      "forkCount": 0
+    },
+    {
+      "name": "renom",
+      "description": "A simple CLI tool to recursively rename files, directories, and replace text inside files.",
+      "url": "https://github.com/CHashtager/renom",
+      "primaryLanguage": { "name": "Go" },
+      "stargazerCount": 0,
+      "forkCount": 0
+    },
+    {
+      "name": "scriptzilla",
+      "description": "My Everyday random scripts",
+      "url": "https://github.com/CHashtager/scriptzilla",
+      "primaryLanguage": { "name": "Shell" },
+      "stargazerCount": 0,
+      "forkCount": 0
+    },
+    {
+      "name": "DotNetEngineerMasterclass",
+      "description": "An educational resource covering wide range of topics in Software Engineering and .NET in order to prepare for job interviews.",
+      "url": "https://github.com/CHashtager/DotNetEngineerMasterclass",
+      "primaryLanguage": null,
+      "stargazerCount": 30,
+      "forkCount": 1
+    },
+    {
+      "name": "notch-dock",
+      "description": "Hover the notch to reach the menu bar icons macOS hides behind it. Native Swift, no private APIs.",
+      "url": "https://github.com/CHashtager/notch-dock",
+      "primaryLanguage": { "name": "Swift" },
+      "stargazerCount": 2,
+      "forkCount": 0
+    },
+    {
+      "name": "patchlens",
+      "description": "MR/PR AI Reviewer",
+      "url": "https://github.com/CHashtager/patchlens",
+      "primaryLanguage": { "name": "Go" },
+      "stargazerCount": 2,
+      "forkCount": 0
+    }
+  ]
+}

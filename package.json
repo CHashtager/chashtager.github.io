@@ -1,0 +1,13 @@
+{
+  "name": "chashtager.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal static portfolio for CHashtager.",
+  "type": "module",
+  "scripts": {
+    "update:pins": "node scripts/fetch-pinned.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
